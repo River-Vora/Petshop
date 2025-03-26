@@ -2,6 +2,14 @@
   "name": "@river-vora/petshop",
   "version": "1.0.0",
   "main": "index.js",
+  "private": true,
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com/"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Vora-21271/Petshop.git"
+  },
   "scripts": {
     "predev": "./kill-port.sh",
     "dev": "nodemon index.js"
