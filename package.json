@@ -1,9 +1,8 @@
 {
-  "name": "petshop",
+  "name": "@river-vora/petshop",
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
     "predev": "./kill-port.sh",
     "dev": "nodemon index.js"
   },
